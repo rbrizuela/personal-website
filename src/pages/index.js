@@ -1,3 +1,16 @@
-import React from "react"
+import React , { Component } from "react"
+import Layout from "../layouts";
 
-export default () => <div>Inicio</div>
+class Inicio extends Component {
+  render(){
+    return(
+      <Layout>
+        <div>Inicio</div>
+      </Layout>
+    )
+  }
+}
+
+export default Inicio
+
+//export default () => <div>Inicio</div>

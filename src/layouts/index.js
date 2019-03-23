@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Link from "gatsby-link";
 
 const styles = {
@@ -34,18 +34,24 @@ const ListLink = props => (
   </li>
 );
 
-export default ({ children }) => (
-  <div style={styles.menu}>
-    <header style={styles.header}>
-      <Link to="/" style={styles.siteTitleLink}>
-        <h3 style={styles.siteTitle}>Mi blog</h3>
-      </Link>
-      <ul style={styles.list}>
-        <ListLink to="/">Inicio</ListLink>
-        <ListLink to="/sobre/">Acerca</ListLink>
-        <ListLink to="/contacto/">Contacto</ListLink>
-      </ul>
-    </header>
-    <main>{children()}</main>
-  </div>
-);
+
+
+function Layout ({ children }) {
+  return(
+    <div style={styles.menu}>
+      <header style={styles.header}>
+        <Link to="/" style={styles.siteTitleLink}>
+          <h3 style={styles.siteTitle}>Mi blog</h3>
+        </Link>
+        <ul style={styles.list}>
+          <ListLink to="/">Inicio</ListLink>
+          <ListLink to="/about/">Acerca</ListLink>
+          <ListLink to="/contact/">Contacto</ListLink>
+        </ul>
+      </header>
+      <main>{children()}</main>
+    </div>
+  )
+}
+
+export default Layout
