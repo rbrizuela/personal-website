@@ -1,16 +1,5 @@
-import React , { Component } from "react"
-import Layout from "../layouts";
+import React from "react"
 
-class Inicio extends Component {
-  render(){
-    return(
-      <Layout>
-        <div>Inicio</div>
-      </Layout>
-    )
-  }
-}
-
-export default Inicio
-
-//export default () => <div>Inicio</div>
+export default () => (
+  <div style={{ color: `purple`, fontSize: `72px` }}>Hello Gatsby!</div>
+)
