@@ -1,13 +1,18 @@
 import React, { Component } from "react"
+import Menu from "../components/menu";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 class About extends Component{
   render(){
     return(
       <div>
+        <Menu/>
         <Header/>
         <h1>About me</h1>
-        <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
+        <p>dev desde hace mucho tiempo</p>
+        <Footer/>
+
       </div>
     )
   }

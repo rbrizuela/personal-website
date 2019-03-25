@@ -1,16 +1,24 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import './header.css'
 
 class Header extends Component {
 	render() {
 		return (
-			<div>
-				<Link to="/">Home</Link>
-				<Link to="/about">About</Link>
-				<Link to="/contact">Contact</Link>
+			<div className='header'>
+        <div className='imagen-container'>
+          <img 
+            className='imagen'
+            src={require('../assets/perfil.png')} 
+            alt='Roberto Brizuela'
+          />
+        </div>
+        <div className='text-container'>
+          <h1 className='text-name'>ROBERTO BRIZUELA</h1>
+          <p className='text-profesion'>Software Developer</p>
+        </div>
 			</div>
 		)
 	}
 }
-export default Header
 
+export default Header

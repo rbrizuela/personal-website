@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+}
+
+.imagen {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.imagen-container {
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.text-container {
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.text-name {
+  font-family: 'Consolas';
+  font-size: 26px;
+}
+
+.text-profesion {
+  font-family: 'Consolas';
+  font-size: 20px;
+}
