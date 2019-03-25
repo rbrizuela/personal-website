@@ -1,3 +1,16 @@
-import React from "react"
+import React, { Component } from "react"
+import { Link } from "gatsby"
 
-export default props => <h1>{props.headerText}</h1>
+class Header extends Component {
+	render() {
+		return (
+			<div>
+				<Link to="/">Home</Link>
+				<Link to="/about">About</Link>
+				<Link to="/contact">Contact</Link>
+			</div>
+		)
+	}
+}
+export default Header
+
