@@ -1,0 +1,9 @@
+icon {
+  padding: 2px;
+  height: 35px;
+  width: 35px;
+}
+
+list-icons {
+  display: flex;
+}
