@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  background-color: rgb(201, 196, 196);
+}
+
+.item-menu {
+  padding: 10px;
+  font-family: "consolas";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.item-menu:hover {
+  background-color: white;
+}
+

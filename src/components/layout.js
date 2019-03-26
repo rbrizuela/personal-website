@@ -1,14 +1,14 @@
-import React, { Component } from "react"
+import React from "react"
 import Menu from "../components/menu"
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-function  Layout (props) {
+function Layout (props) {
   return (
     <div>
       <Menu/>
       <Header/>
-      {props.children}
+        {props.children}
       <Footer/>
     </div>
   )
