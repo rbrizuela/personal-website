@@ -1,19 +1,13 @@
 import React, { Component } from "react"
-import Menu from "../components/menu";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 class About extends Component{
   render(){
     return(
-      <div>
-        <Menu/>
-        <Header/>
+      <Layout>
         <h1>About me</h1>
         <p>dev desde hace mucho tiempo</p>
-        <Footer/>
-
-      </div>
+      </Layout>
     )
   }
 }
