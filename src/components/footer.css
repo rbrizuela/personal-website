@@ -1,9 +1,10 @@
-icon {
-  padding: 2px;
-  height: 35px;
-  width: 35px;
+.icon {
+  padding-left: 2px;
+  padding-top: 2px;
+  height: 60px;
+  width: 60px;
 }
 
-list-icons {
+.list-icons {
   display: flex;
 }
