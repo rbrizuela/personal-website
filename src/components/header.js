@@ -8,7 +8,7 @@ class Header extends Component {
         <div className='imagen-container'>
           <img 
             className='imagen'
-            src={require('../assets/perfil.png')} 
+            src={require('../assets/perfil-transparent.png')} 
             alt='Roberto Brizuela'
           />
         </div>

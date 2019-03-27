@@ -8,3 +8,12 @@
 .list-icons {
   display: flex;
 }
+
+.copyrigth {
+  font-family: 'consolas';
+  font-size: 12px;
+}
+
+.footer{
+  background-color: #efefef;
+}

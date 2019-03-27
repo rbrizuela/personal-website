@@ -1,0 +1,15 @@
+.skills {
+  font-family: 'consolas';
+}
+
+.skills-column {
+  display: flex;
+}
+
+.skills-title {
+  padding: 1%;
+}
+
+h5 {
+  text-align: center;
+}
