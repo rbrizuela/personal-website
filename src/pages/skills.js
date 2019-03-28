@@ -9,7 +9,7 @@ class Skills extends Component{
         <div className="skills">
           <div className="skills-title">Skills</div>
           <div className="skills-column">
-            <div>
+            <div className="skills-group">
               <h5>Front-end</h5>
               <ul>
                 <li>HTML5</li>
@@ -21,7 +21,7 @@ class Skills extends Component{
                 <li>NextJS</li>
               </ul>
             </div>
-            <div>
+            <div className="skills-group">
               <h5>Back-end</h5>
               <ul>
                 <li>Node.js</li>
@@ -30,14 +30,14 @@ class Skills extends Component{
                 <li>MySQL</li>
               </ul>
             </div>
-            <div>
+            <div className="skills-group">
               <h5>Desktop</h5>
               <ul>
                 <li>.NET</li>
                 <li>Crystal Reports</li>
               </ul>
             </div>
-            <div>
+            <div className="skills-group">
               <h5>Other</h5>
               <ul>
                 <li>Git / GitHub</li>
