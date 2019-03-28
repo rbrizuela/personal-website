@@ -5,8 +5,7 @@ class Home extends Component {
   render(){
     return(
       <Layout>
-        <h1>Este es mi sitio personal </h1>
-        <p>aca debo completar con mas info</p>
+        <h1>Home</h1>
       </Layout>
     )
   }

@@ -2,16 +2,16 @@
   font-family: 'consolas';
 }
 
-.skills-column {
+.skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .skills-group {
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
-   background-color: rgba(231, 227, 227, 0.863); 
-  width: calc(25% - 20px); /*20px es la calle*/
+  background-color: #c6ebd9; 
+  width: calc(25% - 20px); /*20px es la calle */
   height: 210px;
   margin-bottom: 24px;
   border-radius: 20px;
@@ -19,6 +19,12 @@
 
 .skills-title {
   padding: 1%;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color:#d9f2e6; 
+  height: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 h5 {
@@ -26,20 +32,26 @@ h5 {
 }
 
 @media(max-width: 991px) {
-  .skills-column {
+  .skills-container {
     padding: 0 24px;
   }
   .skills-group {
     width: calc(50% - 12px);
   }
+  .skills-title {
+    padding: 0 24px;
+  }
 }
 
 @media(max-width: 767px) {
-  .skills-column {
+  .skills-container {
     padding: 0 16px;
   }
   .skills-group {
     width: 100%;
     margin-bottom: 16px;
+  }
+  .skills-title {
+    padding: 0 16px;
   }
 }

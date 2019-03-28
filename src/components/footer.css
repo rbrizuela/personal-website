@@ -1,3 +1,13 @@
+.footer{
+  background-color: #efefef;
+}
+
+.list-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .icon {
   padding-left: 2px;
   padding-top: 2px;
@@ -5,15 +15,9 @@
   width: 40px;
 }
 
-.list-icons {
-  display: flex;
-}
-
 .copyrigth {
   font-family: 'consolas';
   font-size: 12px;
+  text-align: center;
 }
 
-.footer{
-  background-color: #efefef;
-}

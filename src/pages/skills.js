@@ -8,7 +8,7 @@ class Skills extends Component{
       <Layout>
         <div className="skills">
           <div className="skills-title">Skills</div>
-          <div className="skills-column">
+          <div className="skills-container">
             <div className="skills-group">
               <h5>Front-end</h5>
               <ul>
